@@ -1,5 +1,5 @@
 # Two-stream-Encoder-Decoder-Network-for-Image-Forensics
-This repository contains code for the method proposed in the paper: "Two-stream Encoder-Decoder Network for Localizing Image Forgeries" currently consider under major revision (submitted) in Journal of Visual Communication and Image Representation.
+This repository contains code for the method proposed in the paper: "Two-stream Encoder-Decoder Network for Localizing Image Forgeries" currently considered for major revision (submitted) in Journal of Visual Communication and Image Representation.
 
 The first draft of the paper is available in ArXiv with the following link: https://arxiv.org/abs/2009.12881
 
