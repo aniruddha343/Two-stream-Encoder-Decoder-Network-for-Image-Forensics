@@ -429,13 +429,13 @@ mask_path2 = './Data/Bernard/Computer_Vision/spliced_copymove_NIST/masks/'
 
 imgDir1 = os.listdir(img_path1)
 
-imgDirTrain1 = imgDir1[:len(imgDir1)-16]
-imgDirTest1 = imgDir1[len(imgDir1)-16:]
+imgDirTrain1 = imgDir1[:len(imgDir1)-1000]
+imgDirTest1 = imgDir1[len(imgDir1)-1000:]
 
 imgDir2 = os.listdir(img_path2)
 
-imgDirTrain2 = imgDir2[:len(imgDir2)-16]
-imgDirTest2 = imgDir2[len(imgDir2)-16:]
+imgDirTrain2 = imgDir2[:len(imgDir2)-1000]
+imgDirTest2 = imgDir2[len(imgDir2)-1000:]
 
 
 
