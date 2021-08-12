@@ -1,4 +1,5 @@
-# Two-stream Encoder-Decoder Network for Localizing Image Forgeries - by Aniruddha Mazumdar and Prabin K. Bora, IIT Guwahati
+# Two-stream Encoder-Decoder Network for Localizing Image Forgeries - 
+Authors: Aniruddha Mazumdar and Prabin K. Bora, IIT Guwahati
 This repository contains code for the method proposed in the paper: "Two-stream Encoder-Decoder Network for Localizing Image Forgeries". This paper is currently under major revision in Journal of Visual Communication and Image Representation. 
 The first draft of the paper is available in ArXiv with the following link: "https://arxiv.org/abs/2009.12881"
 
