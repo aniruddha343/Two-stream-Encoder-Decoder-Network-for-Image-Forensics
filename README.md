@@ -1,4 +1,4 @@
-# Two-stream Encoder-Decoder Network for Localizing Image Forgeries - 
+## Two-stream Encoder-Decoder Network for Localizing Image Forgeries - 
 Authors: Aniruddha Mazumdar and Prabin K. Bora, IIT Guwahati.
 
 This repository contains code for the method proposed in the paper: "Two-stream Encoder-Decoder Network for Localizing Image Forgeries". This paper is currently under major revision in Journal of Visual Communication and Image Representation. 
@@ -24,7 +24,7 @@ Additionally, if you want to run the demo jupyter notebook file, please install 
 
 ## Training the network 
 
-# Pre-training on Synthetic Dataset prepared by Bappy et al [1].
+### Pre-training on Synthetic Dataset prepared by Bappy et al [1].
 
  1. Modify the path to the synthetic training images and masks and the path to store the trained model weights in the training code and run the code:
  
@@ -35,7 +35,7 @@ Additionally, if you want to run the demo jupyter notebook file, please install 
 		python encoder_decoder_train_2_decoder_Synthetic_NIST.py
 
 
-# Testing
+## Testing
 1. To compute the predicted masks from the trained model, set the full path filename of the trained model weights, and run the following inference code:
 		
 		python encoder_decoder_train_2_decoder_Synthetic_NIST_Test.py --input_image <test_image_filename> --output_filename <output_filename> 
