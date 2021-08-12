@@ -18,7 +18,8 @@ Additionally, if you want to run the demo jupyter notebook file, please install 
 
 1. To install these dependencies, first install anaconda by following the official download instructions avialable at "https://docs.anaconda.com/anaconda/install/linux/"
 2. Create the anaconda environment and install the dependencie inside the environment:
-	conda env create -f environment.yml
+	
+		conda env create -f environment.yml
 
 
 ## Training the network 
@@ -26,15 +27,18 @@ Additionally, if you want to run the demo jupyter notebook file, please install 
 # Pre-training on Synthetic Dataset prepared by Bappy et al [1].
 
  1. Modify the path to the synthetic training images and masks and the path to store the trained model weights in the training code and run the code:
-			python encoder_decoder_train_2_decoder_Synthetic_NIST.py
+ 
+		python encoder_decoder_train_2_decoder_Synthetic_NIST.py
 
  2. Change the path to the training images and masks and the path to the weights of the model trained on, and set the final model weight path to be stored and run the training code:
+ 
 		python encoder_decoder_train_2_decoder_Synthetic_NIST.py
 
 
 # Testing
 1. To compute the predicted masks from the trained model, set the full path filename of the trained model weights, and run the following inference code:
-		python encoder_decoder_train_2_decoder_Synthetic_NIST_Test.py --input_image <test_image_filename> --output_path <path_to_store_results> 
+		
+		python encoder_decoder_train_2_decoder_Synthetic_NIST_Test.py --input_image <test_image_filename> --output_filename <output_filename> 
 
 If it runs successfully, it should save to output files, i.e. predicted_binary_mask.png and predicted_prob_mask.npy, inside the output_path folder.
 
