@@ -42,7 +42,7 @@ Additionally, if you want to run the demo jupyter notebook file, please install 
 
 If it runs successfully, it should save to output files, i.e. predicted_binary_mask.png and predicted_prob_mask.npy, inside the output_path folder.
 
-
+2. Additionally, we have provided a jupyter notebook, i.e. Demo_Two_Stream_Encoder_Decoder.ipynb, containing the steps to run the inference code to generate some of the predictions repoted in the paper. 
 
 
 
